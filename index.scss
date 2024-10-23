@@ -1,0 +1,415 @@
+@import url(styles.css);
+
+@media screen and (max-width: 480px) {
+  // footer=========================================
+  .footer-copyright {
+    margin: 0 auto;
+    width: 48%;
+  }
+  .feel-free{
+    font-size: 12px;
+  }
+  .bx {
+    margin: 0;
+    align-items: center;
+  }
+  .home-made-text {
+    justify-content: center;
+    margin: 40px 15px 0;
+    flex-wrap: wrap;
+    width: 85%;
+  }
+  .button-our-locations {
+    margin-bottom: 0;
+  }
+  .button-franchise {
+    margin-bottom: 0;
+  }
+  .homemade-heading {
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+  .with-passion-heading {
+    font-size: 18px;
+  }
+  // footer end==============================================
+  // section 2 =======================
+  .howitsmade {
+    background-image: none;
+  }
+  // section 2 end====================
+  .home-page nav {
+    display: none;
+  }
+
+  .buy-now-btn {
+    display: none;
+  }
+
+  .cafes-trucks {
+    display: none;
+  }
+
+  .home-page {
+    height: 502px;
+    padding-top: 8px;
+  }
+
+  .burger-menu {
+    position: absolute;
+    right: 0px;
+    top: 27px;
+    padding-right: 16px;
+  }
+  .hero-icecream {
+    position: absolute;
+    background: var(--pale-red) center;
+    width: 346px;
+    height: 344px;
+    border-radius: 50%;
+    z-index: 2;
+    top: 83px;
+    left: 36px;
+  }
+  .home-page{
+    position: absolute;
+    height: 410px;
+    right: 94px;
+    top: 9px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  // footer========================================
+  .footer-copyright {
+    margin: 0 auto;
+    width: 48%;
+  }
+  .feel-free{
+    font-size: 12px;
+  }
+  .bx {
+    margin: 0;
+    align-items: flex-end !important;
+  }
+  .home-made-text {
+    max-width: 100%;
+    margin: 0;
+  }
+  .button-our-locations {
+    margin-bottom: 0;
+  }
+  .button-franchise {
+    margin-bottom: 0;
+  }
+  .with-passion-heading {
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+  .homemade-heading {
+    font-size: 18px;
+  }
+  // footer end==================================
+  .about-howitsmade-text {
+    background-image: url(images/milk_cow.png);
+    background-repeat: no-repeat;
+    background-position: 0 40%;
+    background-size: 100% 34%;
+  }
+
+  .text-about {
+    font-size: 12px;
+    line-height: 162%;
+  }
+
+  .howitsmade-cards{
+    font-size: 12px;
+    line-height: 162%;
+  }
+
+  .cows {
+    font-size: 18px;
+  }
+
+  .title-howitsmade {
+    font-size: 34px;
+    line-height: 110%;
+  }
+
+  .masonry {
+    gap: 3px;
+  }
+
+  .header nav {
+    display: none;
+  }
+  .buy-now-btn {
+    display: none;
+  }
+
+  .hero-jug {
+    display: none;
+  }
+
+  .tasty {
+    display: none;
+  }
+
+  .cafes-trucks {
+    display: none;
+  }
+
+  .hero-icecream img {
+    position: absolute;
+    height: 410px;
+    right: 94px;
+    top: 9px;
+  }
+
+  .hero-icecream {
+    position: absolute;
+    background: var(--pale-red) center;
+    width: 346px;
+    height: 344px;
+    border-radius: 50%;
+    z-index: 2;
+    top: 83px;
+    left: 36px;
+    /* padding-top: 34px; */
+  }
+
+  .ice-cream-with {
+    font-size: 26px;
+  }
+
+  .passion {
+    font-size: 48px;
+  }
+
+  .hero-left {
+    bottom: 136px;
+  }
+
+  .hero-products-btn {
+    width: 62px;
+    height: 24px;
+    font-size: 8px;
+  }
+
+  .hero-howitsmade-btn {
+    width: 82px;
+    height: 24px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  // footer========================================================
+  .footer-contact {
+    margin-bottom: 15px;
+  }
+  .footer-passion {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .footer-homemade {
+    font-size: 26px;
+  }
+  .high-text {
+    max-width: 54%;
+    margin: 0;
+  }
+  .footer-text-and-social-section {
+    width: 93%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .contact-section {
+    width: fit-content;
+    justify-content: center;
+    gap: 10px;
+  }
+  .footer-contact-card {
+    max-width: 234px;
+    height: fit-content;
+    background: #fff;
+    border: none;
+    border-radius: 24px;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    box-shadow: 0 8px 30px #d414431a, 0 8px 30px #d414431a;
+  }
+  .contact-card-content {
+    margin: auto;
+    padding: 55px 13px;
+  }
+  // footer end=======================================================
+  .howitsmade-background {
+    background-image: none;
+  }
+
+  .first-box-sec2,
+  .second-box-sec2,
+  .third-box-sec2 {
+    max-width: 11em;
+  }
+  .global-header {
+    height: 416px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+  }
+
+  .header nav {
+    display: none;
+  }
+  .hero-icecream img {
+    position: absolute;
+    height: 336px;
+    right: 118px;
+    top: 37px;
+  }
+
+  .hero-icecream {
+    position: absolute;
+    background: var(--pale-red) center;
+    width: 335px;
+    height: 333px;
+    border-radius: 50%;
+    z-index: 2;
+    top: 43px;
+    right: 185px;
+  }
+
+  .hero-left {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    bottom: 16px;
+  }
+
+  .hero-jug img {
+    height: 154px;
+  }
+
+  .tasty img {
+    height: 150px;
+  }
+
+  .hero-products-btn {
+    width: 63px;
+    height: 24px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 8px;
+    text-align: center;
+    color: var(--white);
+  }
+
+  .hero-howitsmade-btn {
+    width: 82px;
+    height: 24px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 8px;
+    text-align: center;
+    color: var(--strong-red);
+  }
+
+  .ice-cream-with {
+    font-size: 22px;
+  }
+
+  .passion {
+    font-size: 34px;
+  }
+
+  .global-header p {
+    font-size: 8px;
+  }
+
+  .cafes-trucks li :first-child {
+    font-size: 28px;
+  }
+
+  .cafes-trucks li :last-child {
+    font-size: 8px;
+  }
+
+  .cafes-trucks {
+    top: 92px;
+    right: 32px;
+  }
+  // mobile ==============================================
+  .menu-container {
+    width: 254px;
+    height: 1020px;
+  }
+  .container-for-mobile {
+    position: absolute;
+    right: 200px;
+    top: 38px;
+  }
+
+    .mobile-buy .buynow {
+      width: 186px;
+    }
+  // mobile end=======================================
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .menu-container {
+    width: 254px;
+    height: 1020px;
+  }
+  .container-for-mobile {
+    position: absolute;
+    right: 200px;
+    top: 48px;
+  }
+  .header nav {
+    display: none;
+  }
+
+  .mobile-buy .buynow {
+      width: 186px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  // mobile
+  .menu-container,
+  .container-for-mobile,
+  .menu-container.is-open {
+    display: none;
+  }
+  // mobile end========================================
+
+  .header ul {
+    gap: 17px;
+  }
+
+  // .header li {
+  //   font-size: 13px;
+  // }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1280px) {
+  .menu-container,
+  .container-for-mobile,
+  .menu-container.is-open {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  // mobile============================================
+  .menu-container,
+  .container-for-mobile,
+  .menu-container.is-open {
+    display: none;
+  }
+  // mobile end=========================================
+}

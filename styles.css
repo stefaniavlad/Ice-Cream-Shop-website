@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', sans-serif;
+    scroll-behavior: smooth;
+    /*font-family: 'Chewy', sans-serif;*/
+    /*background-color: rgb(254, 235, 238);*/
+}
+
+nav {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 40px;
+    color: white;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.home-page{
+    background-image: url('images/pink_icecream.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 730px;
+}
+
+.buy-now {
+  position: absolute;
+  top: 20px; /* Ajustează valoarea în funcție de înălțimea navbar-ului */
+  right: 50px; /* Poziționarea în dreapta */
+}
+
+.btn-buynow {
+  border-radius: 20px;
+  width: 125px;
+  height: 40px;
+  background-color: rgb(152, 35, 35);
+  color: white;
+  border-width: 0px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  transition: transform 0.5s ease;
+}
+.btn-buynow:hover{
+  background-color: white;
+  color: rgb(152, 35, 35);
+  transform: translateY(-5px);
+}
+.header-title{
+    text-align: center;
+    justify-content: center;
+    color: rgb(152, 35, 35);
+    font-size: 40px;
+    margin-top: 90px;
+}
+.section-content {
+    padding-left: 90px; /* Aplică o margine uniformă la stânga */
+    margin-top: 130px; /* Mută secțiunea mai jos în pagină */
+}
+
+.section-content h1 {
+    font-size: 50px;
+    margin: 0px; /* Elimină marginea dintre ele */
+    padding: 0;
+    padding-left: 90px;
+}
+
+.first-heading{
+    color: white;
+}
+
+.passion-heading{
+    color: rgb(152, 35, 35);
+}
+
+.button-products {
+    border-radius: 20px;
+    width: 107px;
+    height: 40px;
+    background-color: rgb(152, 35, 35);
+    color: white;
+    border-width: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+
+  .button-products:hover{
+    background-color: white;
+    color: rgb(152, 35, 35);
+  }
+
+  .button-howitsmade{
+    border-radius: 20px;
+    width: 138px;
+    height: 40px;
+    background-color: white;
+    color: rgb(152, 35, 35);
+    border-width: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+
+  .button-howitsmade:hover{
+    background-color: rgb(152, 35, 35);
+    color: white;
+  }
+
+  .cafes-trucks {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 16px;
+    top: 152px;
+  }
+  
+  .cafes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 15px;
+  }
+  
+  .cafes-number,
+  .trucks-number {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 46px;
+    letter-spacing: 0.04em;
+    text-align: right;
+    color:  rgb(152, 35, 35);
+    z-index: 3;
+    padding: 8px;
+  }
+  
+  .cafes-cafes,
+  .trucks-trucks {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: var(--white);
+    white-space: nowrap;
+    margin-right: 10px;
+  }
+  
+  .circle,
+  .circle2 {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .food-trucks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+
+  /*SECOND PAGE ----- PRODUCTS*/
+  .products {
+    /*background-color: #f9f9f9;*/
+    background-color: white;
+  }
+
+  .product-cards{
+    display: flex;          /* Activează Flexbox */
+    justify-content: space-evenly; /* Spațiu egal între carduri */
+    gap: 20px;              /* Opțional: spațiu între carduri */
+  }
+
+  .products-title {
+    display: flex;               /* Enables flexbox layout */
+    justify-content: center;     /* Centers content horizontally */
+    flex-direction: column;      /* Stacks children vertically */
+    align-items: center;         /* Centers content vertically */
+    margin-top: 50px;           /* Adds a top margin */ /* Light background color */
+    padding: 2px;              /* Adds padding around the content */
+    border-radius: 8px; 
+    color: rgb(152, 35, 35); 
+    font-size: 23px;      /* Rounds the corners */
+}
+
+.icecream-container{
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    align-items: center;
+    text-align: center;
+    /*background-color: rgb(215, 152, 162);*/
+    background-color: #e4a5a1;
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.icecream img{
+    width: 180px;
+    border-radius: 100px;
+}
+
+.icecream-container button{
+  border-radius: 100%;
+  border: none;
+  width: 35px;
+  height: 35px;
+  color: rgb(152, 35, 35);
+}
+
+.milkshake-container{
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    align-items: center;
+    text-align: center;
+    /*background-color:  rgb(249, 164, 36);*/
+    background-color: #e8c086;
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.milkshake img{
+    width: 180px;
+    border-radius: 100px;
+}
+
+.milkshake-container button{
+  border-radius: 100%;
+  border: none;
+  width: 35px;
+  height: 35px;
+  color: rgb(152, 35, 35);
+}
+
+.icecoffee-container{
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    align-items: center;
+    text-align: center;
+    /*background-color:  rgb(181, 136, 69);*/
+    background-color: #db9e83;
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.icecoffee img{
+    width: 180px;
+    border-radius: 100px;
+}
+
+.icecoffee-container button{
+  border-radius: 100%;
+  border: none;
+  width: 35px;
+  height: 35px;
+  color: rgb(152, 35, 35);
+}
+
+
+ /*THIRD PAGE ----- HOW IT'S MADE?*/
+ .howitsmade{
+    background-color: rgb(254, 235, 238);
+    margin: 0;
+    padding: 0;
+ }
+
+ .tradition{
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    flex-direction: column;      /* Stacks children vertically */
+    align-items: center;         /* Centers content vertically */
+    margin-top: 61px;
+    padding: 10px;              /* Adds padding around the content */
+    border-radius: 8px; 
+    color: rgb(220, 119, 136); 
+    font-size: 23px;
+ }
+
+ .howitsmade-title{
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;      /* Stacks children vertically */
+    align-items: center;         /* Centers content vertically */
+    margin-top: 10px;           /* Adds a top margin */
+    padding: 10px;              /* Adds padding around the content */
+    border-radius: 8px; 
+    color: rgb(152, 35, 35); 
+    font-size: 40px;
+    font-weight: 180px;
+ }
+
+ .about-howitsmade-text img {
+  width: 450px;
+  border-radius: 800px;
+  margin-left: 130px;
+  margin-bottom: 50px;
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+  max-width: 100%; 
+  height: auto;
+}
+
+/* Pentru ecrane mici (sub 768px) */
+@media (max-width: 768px) {
+  .about-howitsmade-text img {
+      width: 90%;
+      margin-left: 0;
+  }
+}
+
+ .about-howitsmade-text{
+    padding: 40px;
+    font-family: Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    display: flex;   
+ }
+
+ .text-about{
+    flex-direction: row;
+    margin-left: 170px;
+    margin-right: 250px;
+    color: rgb(71, 16, 16); 
+ }
+
+ .btn-readmore{
+    width: 138px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 0px;
+    color: rgb(152, 35, 35);
+    background-color: white;
+    font-weight: 700;
+    font-size: 17px;
+ }
+
+ .btn-readmore:hover{
+  color: white;
+    background-color: rgb(152, 35, 35);;
+ }
+
+ .howitsmade-cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px; 
+ }
+
+ .cows{
+    width: 350px;
+    height: 400px;
+ }
+ .cows h1{
+    color: rgb(152, 35, 35);
+    margin-left: 30px;
+ }
+ .cows p{
+    color: black;
+    font-family: Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 30px;
+ }
+
+ .production{
+    width: 350px;
+    height: 400px;
+    color: rgb(152, 35, 35);
+ }
+
+ .production h1{
+    color: rgb(152, 35, 35);
+    margin-left: 30px;
+ }
+
+ .production p{
+    color: black;
+    font-family: Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 28px;
+ }
+ 
+ .icecream-product{
+    width: 400px;
+    height: 400px;
+    color: rgb(152, 35, 35);
+ }
+
+ .icecream-product h1{
+    color: rgb(152, 35, 35);
+    margin-left: 30px;
+ }
+
+ .icecream-product p{
+    color: black;
+    font-family: Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 30px;
+ }
+
+
+  /*FOURTH PAGE ----- REVIEWS?*/
+  .reviews img{
+    width: 1500px;
+    margin-left: 8px;
+  }
+  .reviews-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 80px;
+}
+  .reviews-cards img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  .review-card {
+    width: 300px;
+    border: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f7f5f5;
+    font-family: Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+/*FIFTH PAGE ----- LOCATIONS*/
+.schedule-title{
+  color: rgb(152, 35, 35);
+  justify-content: center;
+  text-align: center;
+  padding: 80px;
+  font-size: 25px;
+}
+
+.cafe-first-card {
+  width: 310px;
+    height: 475px;
+    border: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 30px 40px rgba(161, 7, 112, 0.272);
+    background-color: white;
+    font-family: Georgia, sans-serif;
+    /*font-family: Andale Mono, monospace;*/
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.cafe-first-card .schedule{
+  font-family: Andale Mono, monospace;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  letter-spacing: .1rem;
+  color: rgb(152, 35, 35);
+}
+
+.btn-cafe{
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(254, 210, 128);
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.foodtruck-card {
+  width: 310px;
+  height: 475px;
+  border: 1px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 30px 40px rgba(161, 7, 112, 0.272);
+  background-color: white;
+  font-family: Georgia, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.btn-foodtruck{
+  width: 110px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(150, 224, 162);
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.foodtruck-card .schedule{
+  font-family: Andale Mono, monospace;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  letter-spacing: .1rem;
+  color: rgb(152, 35, 35);
+}
+
+.cafe-second-card {
+    width: 310px;
+    height: 475px;
+    border: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 30px 40px rgba(161, 7, 112, 0.272);
+    background-color: white;
+    font-family: Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.cafe-second-card .schedule{
+  font-family: Andale Mono, monospace;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  letter-spacing: .1rem;
+  color: rgb(152, 35, 35);
+}
+
+.locations-info{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px; 
+
+}
+
+
+/*SIXTH PAGE ----- LOCATIONS BUTTONS*/
+.our-locations{
+  display: flex;
+  justify-content: center;
+  gap: 50px; 
+  padding: 130px;
+}
+
+.button-our-locations{
+  border-radius: 20px;
+  width: 138px;
+  height: 40px;
+  background-color: rgb(152, 35, 35);;
+  color: white;
+  border-width: 0px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+.button-our-locations:hover{
+  background-color: #f7f5f5;
+  color: rgb(152, 35, 35);
+}
+
+.button-franchise{
+  border-radius: 20px;
+  width: 138px;
+  height: 41px;
+  border: 1px solid rgb(221, 217, 217);
+  background-color: #f7f5f5;
+  color: rgb(152, 35, 35);
+  border-width: 0px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+.button-franchise:hover{
+  background-color: rgb(152, 35, 35);;
+  color: white;
+}
+
+.home-made-text  h1 {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 90px;
+}
+
+.homemade-heading {
+  font-family: 'Impact', serif;
+  color: #F5A1A1;
+  font-weight: bold;
+  font-size: 46px;
+  letter-spacing: 1px;
+}
+
+.with-passion-heading {
+  color: #D13A3A;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 70px;
+}
+
+.text-contact {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.home-made-text {
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.feel-free {
+  margin: 0;
+  font-size: 18px;
+}
+
+.contact span {
+  font-weight: bold;
+  color: rgb(152, 35, 35);
+}
+
+.bx {
+  font-size: 30px;
+  color: rgb(152, 35, 35);
+}
+
+footer {
+  justify-content: center;
+  
+}
+.footer-copyright{
+  text-align: center;
+  font-family: Georgia, sans-serif;
+  color: rgb(130, 86, 92)
+}
+
+
+.modal {
+  display: none; /* Ascuns inițial */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Activăm derularea dacă este necesar */
+  background-color: rgba(0, 0, 0, 0.7); /* Fundal semi-transparent */
+}
+
+.modal-content {
+  position: relative;
+  margin: 15% auto; /* Poziționare pe mijloc */
+  padding: 20px;
+  width: 50%; /* Lățime de 80% din viewport */
+  max-width: 600px; /* Lățime maximă */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
